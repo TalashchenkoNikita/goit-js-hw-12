@@ -106,6 +106,10 @@ button {
     color: #FFFFFF;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .load-more {
   align-self: center;
 }

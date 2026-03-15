@@ -1,13 +1,16 @@
-.body{
-  position: relative;
+.loader {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.loader {
-  position: absolute;
-  left: 45%;
-  top: 45%;
-  display: inline-block;
+.under-btn {
+  position: fixed;
+  left: 50%;
+  top: 95%;
 }
+
 .loader::before {
   content: 'Loading';
   color: #000;
@@ -18,6 +21,7 @@
   box-sizing: border-box;
   animation: floating 1s ease-out infinite alternate;
 }
+
 .loader::after {
   content: '';  
   width: 100%;
