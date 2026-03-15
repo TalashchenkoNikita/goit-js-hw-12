@@ -15,7 +15,7 @@ Responsive UI
 Open the index.html file in your browser to start the application.
 
 📫 Live Demo
-https://oksanademchenko.github.io/goit-js-hw-12/
+https://talashchenkonikita.github.io/goit-js-hw-12/
 
 🏷️ Topics
 html, css, javascript, goit
