@@ -19,7 +19,7 @@
   letter-spacing: 2px;
   display: inline-block;
   box-sizing: border-box;
-  animation: floating 1s ease-out infinite alternate;
+  animation: floating 0.5s ease-out infinite alternate;
 }
 
 .loader::after {
@@ -30,7 +30,7 @@
   filter: blur(4px);
   border-radius: 50%;
   box-sizing: border-box;
-  animation: animloader 1s ease-out infinite alternate;
+  animation: animloader 0.5s ease-out infinite alternate;
 }
 
 @keyframes floating {
