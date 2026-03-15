@@ -106,6 +106,10 @@ button {
     color: #FFFFFF;
 }
 
+.load-more {
+  align-self: center;
+}
+
 button:hover {
   background-color: #819cfd;
   border: 1px solid #819cfd;

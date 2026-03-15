@@ -2,7 +2,7 @@ import axios from 'axios';
 
 axios.defaults.baseURL = 'https://pixabay.com';
 
-export function getImagesByQuery(query) {
+export function getImagesByQuery(query, page, perPage) {
   return axios
     .get('/api/', {
       params: {
@@ -11,10 +11,12 @@ export function getImagesByQuery(query) {
         image_type: 'photo',
         orientation: 'horizontal',
         safesearch: 'true',
+        per_page: `${perPage}`,
+        page: `${page}`,
       },
     })
     .then(response => {
-      return response.data.hits;
+      return response.data;
     })
     .catch(error => {   
       console.log(error);
